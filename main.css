@@ -1,7 +1,7 @@
         body{
         margin: 0; /* Убираем отступы */
         height: 100%; /* Высота страницы */
-        background-image: url(images/image_photo.png); /* Путь к фоновому изображению */
+        background-image: url(static/img/image_photo.png); /* Путь к фоновому изображению */
         background-attachment: fixed, fixed;
         background-size: cover; /* Фон занимает всю доступную площадь */
       }
@@ -26,9 +26,10 @@
         border-radius: 16px;
        }
         .head_str{
-       font-family: BRUSH SCRIPT MT;
+       font-family: 'Major Mono Display', monospace;
        display: block;
        text-align: center;
+       font-size: 280%;
        }
        .image_str {
         display: block;
@@ -58,7 +59,7 @@
         background: rgba(176, 224, 230, 0.15);
         Background-repeat: no repeat;
         Background-size: cover;
-        font-family: BRUSH SCRIPT MT;
+        font-family: 'Alice', serif;
         font-size: 100%; /*Размер шрифта */
         width: 80%; /* Ширина блока */
         width: 80%; /* Ширина элемента в пикселах */
@@ -73,22 +74,22 @@
         Background-repeat: no repeat;
         color: white;
         Background-size: cover;
-        font-family: BRUSH SCRIPT MT;
+        font-family: 'Alice', serif;
         font-size: 100%; /*Размер шрифта */
        }
         .navbar-brand {
-        font-family: BRUSH SCRIPT MT;
+        font-family: 'Alice', serif;
         font-size: 30%; /*Размер шрифта */
        }
        .carousel-caption{
-        font-family: Monotype Corsiva;
+        font-family: 'Alice', serif;
         font-size: 65%; /*Размер шрифта */
         color: #FFFAFA;
         text-shadow: 1px -3px 2px black, 0 0 1em black; /* Параметры тени */
        }
        .btn_menu {
         background: rgba(220, 220, 220, 0.55);
-        font-family: Palatino Linotype;
+        font-family: 'Alice', serif;
         position: relative;
         transform: translate(-30%, 0);
         font-size: 11px;
@@ -101,13 +102,13 @@
         background: rgba(119, 136, 153, 1);
         Background-repeat: no repeat;
         Background-size: cover;
-        font-family: BRUSH SCRIPT MT;
+        font-family: 'Alice', serif;
         font-size: 115%; /*Размер шрифта */
         color: #000000;
        }
        .btn_message{
         background: rgba(220, 220, 220, 0.55);
-        font-family: Palatino Linotype;
+        font-family: 'Alice', serif;
         position: relative;
         font-size: 20px;
         position:-webkit-sticky;
@@ -216,7 +217,7 @@
     height: auto;
     display: flex;
     align-items: center;
-    background: url(images/new_navbar.png);
+    background: url(static/img/new_navbar.png);
 
     background-clip: padding-box;
     background-origin: border-box;
@@ -245,11 +246,11 @@
     margin-left: auto;
 }
 .main-nav__link {
-    font-family: COLONNA MT;
-    font-size: 34px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 25px;
     text-decoration: none;
-    color: #045FB4;
-    font-weight: 1200;
+    color: #F5F5DC;
+    font-weight: 1400;
     text-shadow: 6px 2px 3px black, 0 0 1em white;
 }
 .main-nav__link:hover{
