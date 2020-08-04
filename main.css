@@ -1,129 +1,187 @@
-        body{
-        margin: 0; /* Убираем отступы */
-        height: 100%; /* Высота страницы */
-        background-image: url(static/img/image_photo.png); /* Путь к фоновому изображению */
-        background-attachment: fixed, fixed;
-        background-size: cover; /* Фон занимает всю доступную площадь */
+body{
+    margin: 0; /* Убираем отступы */
+    height: 100%; /* Высота страницы */
+    background-image: url(static/img/image_photo.png); /* Путь к фоновому изображению */
+    background-attachment: fixed, fixed;
+    background-size: cover; /* Фон занимает всю доступную площадь */
       }
-      .carousel-item{
-          background-position: center;
-          carouselExampleCaptionsfont-size: 70%; /*Размер шрифта */
-       }
-       .carousel-indicators .active{
-        background-color: #00FA9A;
-       }
-       .jumbotron {
-        background: rgba(255, 255, 0, 0.15);
-        Background-repeat: no repeat;
-        Background-size: cover;
-        font-size: 100%; /*Размер шрифта */
-        width: 80%; /* Ширина блока */
-        width: 80%; /* Ширина элемента в пикселах */
-        padding: 5px; /* Поля вокруг текста */
-        margin: auto; /* Выравниваем по центру */
-        border: 2px solid #000000;
-        text-decoration: none;
-        border-radius: 16px;
-       }
-        .head_str{
-       font-family: 'Major Mono Display', monospace;
-       display: block;
-       text-align: center;
-       font-size: 280%;
-       }
-       .image_str {
-        display: block;
-        text-align: center; /* Выравнивание по центру */
-       }
-       .body_str{
-        width:70%
-       }
-        .lst_main {
-        background-color: rgba(255, 255, 255, 0.5);;
-        border: 3px solid #000000;
-        border-radius: 16px;
+.carousel-item{
+  background-position: center;
+  carouselExampleCaptionsfont-size: 70%; /*Размер шрифта */
+}
+.carousel-indicators .active{
+    background-color: #00FA9A;
+}
+.jumbotron {
+    background: rgba(255, 255, 0, 0.15);
+    Background-repeat: no repeat;
+    Background-size: cover;
+    font-size: 100%; /*Размер шрифта */
+    width: 80%; /* Ширина блока */
+    width: 80%; /* Ширина элемента в пикселах */
+    padding: 5px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    border: 2px solid #000000;
+    text-decoration: none;
+    border-radius: 16px;
+    }
+.head_str{
+    font-family: 'Sonsie One', cursive;
+    display: block;
+    text-align: center;
+    font-size: 280%;
+    color: rgba(255, 255, 255, 0.80);
+    }
 
-        }
+.disp{
+    font-family: 'Sonsie One', cursive;
+    display: block;
+    text-align: center;
+    font-size: 280%;
+    color: rgba(255, 255, 255, 0.80);
+}
+.carusel_items{
+    background: rgba(255, 255, 0, 0.15);
+    Background-repeat: no repeat;
+    width: 80%; /* Ширина блока */
+    width: 80%; /* Ширина элемента в пикселах */
+    padding: 5px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    border: 2px solid #000000;
+    text-decoration: none;
+    border-radius: 16px;
+}
+.card{
+    margin: auto;
+}
+.btn_for_zak{
 
-       .lnk:hover{
-        color: white;
-       text-decoration: none;
-         }
-       .lnk{
-       color: black;
-       text-decoration: none;
-         }
+}
+.image_str {
+    display: block;
+    text-align: center; /* Выравнивание по центру */
+    }
+
+.body_str{
+    width:70%
+    }
+.lst_main {
+    background-color: rgba(255, 255, 255, 0.5);;
+    border: 3px solid #000000;
+    border-radius: 16px;
+    }
+
+.lnk:hover{
+    color: white;
+    text-decoration: none;
+     }
+.lnk{
+    color: black;
+    text-decoration: none;
+     }
 
 
-       .jumbotron2{
-        background: rgba(176, 224, 230, 0.15);
-        Background-repeat: no repeat;
-        Background-size: cover;
-        font-family: 'Alice', serif;
-        font-size: 100%; /*Размер шрифта */
-        width: 80%; /* Ширина блока */
-        width: 80%; /* Ширина элемента в пикселах */
-        padding: 5px; /* Поля вокруг текста */
-        margin: auto; /* Выравниваем по центру */
-        border: 2px solid #000000;
-        text-decoration: none;
-        border-radius: 16px;
-       }
-       .jumbotron3{
-        background: rgba(0, 0, 0, 0.80);
-        Background-repeat: no repeat;
-        color: white;
-        Background-size: cover;
-        font-family: 'Alice', serif;
-        font-size: 100%; /*Размер шрифта */
-       }
-        .navbar-brand {
-        font-family: 'Alice', serif;
-        font-size: 30%; /*Размер шрифта */
-       }
-       .carousel-caption{
-        font-family: 'Alice', serif;
-        font-size: 65%; /*Размер шрифта */
-        color: #FFFAFA;
-        text-shadow: 1px -3px 2px black, 0 0 1em black; /* Параметры тени */
-       }
-       .btn_menu {
-        background: rgba(220, 220, 220, 0.55);
-        font-family: 'Alice', serif;
-        position: relative;
-        transform: translate(-30%, 0);
-        font-size: 11px;
-        border-radius: 16px;
-        color: DarkBlue;
-        box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255,0.19);
-        width: 10%;
-       }
-       .card{
-        background: rgba(119, 136, 153, 1);
-        Background-repeat: no repeat;
-        Background-size: cover;
-        font-family: 'Alice', serif;
-        font-size: 115%; /*Размер шрифта */
-        color: #000000;
-       }
-       .btn_message{
-        background: rgba(220, 220, 220, 0.55);
-        font-family: 'Alice', serif;
-        position: relative;
-        font-size: 20px;
-        position:-webkit-sticky;
-        position:sticky; bottom:0;
-        width: 70%; /* Ширина блока */
-        width: 80%; /* Ширина элемента в пикселах */
-        padding: 1px; /* Поля вокруг текста */
-        margin: auto; /* Выравниваем по центру */
-        box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.65), 6px 4px 4px 4px rgba(0, 0, 0, 0.55);
-        }
-       .btn2{
-        background: rgba(220, 220, 220,);
-        font-family: Palatino Linotype;
-        font-size: 100%; /*Размер шрифта */
-       }
+.jumbotron2{
+    background: rgba(176, 224, 230, 0.15);
+    Background-repeat: no repeat;
+    Background-size: cover;
+    font-family: 'Alice', serif;
+    font-size: 100%; /*Размер шрифта */
+    width: 80%; /* Ширина блока */
+    width: 80%; /* Ширина элемента в пикселах */
+    padding: 5px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    border: 2px solid #000000;
+    text-decoration: none;
+    border-radius: 16px;
+    }
+.jumbotron3{
+    background: rgba(176, 224, 230, 0.15);
+    Background-repeat: no repeat;
+    Background-size: cover;
+    font-family: 'Alice', serif;
+    font-size: 100%; /*Размер шрифта */
+    width: 80%; /* Ширина блока */
+    width: 80%; /* Ширина элемента в пикселах */
+    padding: 5px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    border: 2px solid #000000;
+    text-decoration: none;
+    border-radius: 16px;
+    }
+
+.card:hover {
+    box-shadow: 0 12px 25px 0 rgba(255,255,255,0.8);
+}
+.card-body{
+    display: inline-block;
+	height: 50px;
+    line-height: 20px;
+    position: relative;
+    border: 3px solid black;
+    padding: 0 1rem;
+    background: rgba(220, 220, 220, 0.55);
+    font-family: 'Alice', serif;
+    padding: 11px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.65), 3px 3px 4px 3px rgba(255, 255, 255, 0.55);
+}
+
+.jumbotron4{
+    background: rgba(0, 0, 0, 0.80);
+    Background-repeat: no repeat;
+    color: white;
+    Background-size: cover;
+    font-family: 'Alice', serif;
+    font-size: 100%; /*Размер шрифта */
+    }
+.navbar-brand {
+    font-family: 'Alice', serif;
+    font-size: 30%; /*Размер шрифта */
+    }
+.carousel-caption{
+    font-family: 'Alice', serif;
+    font-size: 65%; /*Размер шрифта */
+    color: #FFFAFA;
+    text-shadow: 1px -3px 2px black, 0 0 1em black; /* Параметры тени */
+    }
+.btn_menu {
+    background: rgba(220, 220, 220, 0.55);
+    font-family: 'Alice', serif;
+    position: relative;
+    transform: translate(-30%, 0);
+    font-size: 11px;
+    border-radius: 16px;
+    color: DarkBlue;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255,0.19);
+    width: 10%;
+    }
+.card{
+    background: rgba(119, 136, 153, 1);
+    Background-repeat: no repeat;
+    Background-size: cover;
+    font-family: 'Alice', serif;
+    font-size: 115%; /*Размер шрифта */
+    color: #000000;
+    }
+.btn_message{
+    background: rgba(220, 220, 220, 0.55);
+    font-family: 'Alice', serif;
+    position: relative;
+    font-size: 20px;
+    position:-webkit-sticky;
+    position:sticky; bottom:0;
+    width: 70%; /* Ширина блока */
+    width: 80%; /* Ширина элемента в пикселах */
+    padding: 1px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.65), 6px 4px 4px 4px rgba(0, 0, 0, 0.55);
+    }
+.btn2{
+    background: rgba(220, 220, 220,);
+    font-family: Palatino Linotype;
+    font-size: 100%; /*Размер шрифта */
+    }
        /* ---- header-top ---- */
 .page-header {
     box-shadow: 0 1px 5px rgba(33,33,33,1);
@@ -217,7 +275,7 @@
     height: auto;
     display: flex;
     align-items: center;
-    background: url(static/img/new_navbar.png);
+    background: url(static/img/nav_img1.png);
 
     background-clip: padding-box;
     background-origin: border-box;
@@ -240,7 +298,7 @@
     padding: 0;
     list-style: none;
     justify-content: space-between;
-    flex-basis: 80%;
+    flex-basis: 50%;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
