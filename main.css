@@ -29,7 +29,7 @@ body{
     font-family: 'Sonsie One', cursive;
     display: block;
     text-align: center;
-    font-size: 280%;
+    font-size: 65px;
     color: rgba(255, 255, 255, 0.80);
     }
 
@@ -211,6 +211,24 @@ body{
     flex-basis: 55%;
     margin: 0;
 }
+.logo__title {
+    font-family: 'Sonsie One', cursive;
+    font-size: 25px;
+    margin: 30;
+    color: #000000;
+}
+.logo:hover {
+    text-decoration: none;
+}
+.logo__text {
+    margin-top: 55px;
+    margin-left: -25px;
+}
+.logo {
+    display: flex;
+    text-decoration: none;
+    margin-left: -40px;
+    }
 .header-top__item {
     display: inline-block;
     color: #ffffff;
@@ -276,6 +294,7 @@ body{
     display: flex;
     align-items: center;
     background: url(static/img/nav_img1.png);
+    background-size: cover;
 
     background-clip: padding-box;
     background-origin: border-box;
@@ -288,17 +307,12 @@ body{
     align-items: center;
 }
 
-.logo {
-    display: flex;
-    text-decoration: none;
-}
-
 .main-nav__list {
     display: flex;
-    padding: 0;
+    padding: 45;
     list-style: none;
     justify-content: space-between;
-    flex-basis: 50%;
+    flex-basis: 60%;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
@@ -307,9 +321,9 @@ body{
     font-family: 'Fredericka the Great', cursive;
     font-size: 25px;
     text-decoration: none;
-    color: #F5F5DC;
-    font-weight: 1400;
-    text-shadow: 6px 2px 3px black, 0 0 1em white;
+    color: #000000;
+    font-weight: 900;-
+    text-shadow: 6px 2px 3px DarkCyan, 0 0 1em white;
 }
 .main-nav__link:hover{
     color: white;
@@ -375,9 +389,9 @@ body{
     outline: none;
 }
 .page-main {
-    padding-top: 122.4px;
+    padding-top: 222px;
 }
-@media only screen and (max-width : 991px) {
+@media only screen and (max-width : 400px) {
     .header-top__list {
         flex-basis: 55%;
     }
@@ -385,5 +399,24 @@ body{
         font-size: 14px;
     }
     .main-nav__list {
-        flex-basis: 95%;
+        flex-basis: 55%;
     }
+    .main-nav__item{
+        margin-left: -40px;
+    }
+    .logo__image{
+    wight: 100px;
+    height: 100px;
+    }
+    .logo__text {
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .page-main {
+        padding-top: 175px;
+    }
+    .head_str{
+        font-size: 39px;
+    }
+}
+
